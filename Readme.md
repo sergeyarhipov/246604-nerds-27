@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Сергей Архипов](https://up.htmlacademy.ru/htmlcss/27/user/246604).
-* Наставник: `Неизвестно`.
+* Наставник: Дмитрий Беллавин. https://htmlacademy.ru/profile/bellavin
 
 ---
 
