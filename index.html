@@ -184,8 +184,23 @@
 
 	<!-- Pop-up -->	
 	<section class="popup-send">
+		<button class="popup-close" type="button" title="Закрыть" aria-label="Закрыть форму"></button>
 		<h2>Напишите нам</h2>
-		<!-- Здесь будет форма -->
+		<form class="letter-popup" action="https://echo.htmlacademy.ru/" method="post">
+			<div class="contact-name">
+				<label for="name">Ваше имя:</label>
+				<input id="name" type="text" name="user-name" placeholder="Имя Фамилия" required>
+			</div>
+			<div class="contact-email">
+				<label for="email">Ваше email:</label>
+				<input id="email" type="email" name="user-email" placeholder="email@example.com" required>
+			</div>
+			<div class="textarea">
+				<label for="textarea">Текст письма</label>
+				<textarea id="textarea" name="textarea-text" cols="90" rows="10" placeholder="В свободной форме" required></textarea>
+			</div>
+			<button class="send-form" type="submit" name="send-form">Отправить</button>
+		</form>
 	</section>
 </body>
 </html>
