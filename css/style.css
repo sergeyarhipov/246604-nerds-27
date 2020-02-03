@@ -19,6 +19,7 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
   font-style: 16px;
   line-height: 24px;
+  box-sizing: border-box;
 }
 
 a {
@@ -34,10 +35,14 @@ a {
 
 .btn {
   text-transform: uppercase;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .main-header {
   background-color: #eeeeee;
+}
+
+.menu a {
+  line-height: 30px;
 }
