@@ -43,6 +43,24 @@ a {
   background-color: #eeeeee;
 }
 
-.menu a {
+.menu a,
+.cart {
   line-height: 30px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #000;
+}
+
+.menu a:hover,
+.cart:hover {
+  color: #fb565a;
+}
+
+.menu a:focus,
+.cart:focus {
+  color: #bdbdbd;
+}
+
+.menu-active {
+  border-bottom: 2px solid #fb565a;
 }
