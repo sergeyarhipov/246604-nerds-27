@@ -27,6 +27,11 @@ a {
   line-height: 18px;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .btn {
   text-transform: uppercase;
   padding-top: 19px;
