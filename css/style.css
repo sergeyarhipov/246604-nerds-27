@@ -25,3 +25,9 @@ a {
   font-style: 16px;
   line-height: 18px;
 }
+
+.btn {
+  text-transform: uppercase;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
