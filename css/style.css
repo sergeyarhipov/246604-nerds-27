@@ -12,6 +12,7 @@
 }
 
 
+
 /* Общие стили */
 body {
   margin: 0;
@@ -52,6 +53,8 @@ a {
 .bg-header {
   background-color: #eeeeee;
 }
+
+
 
 /* Блок навигации */
 .link-index {
@@ -175,6 +178,8 @@ a {
  background-color: #d7373b;
 }
 
+
+
 /* Блок описания, выполняемых работ */
 .service-items {
   display: flex;
@@ -264,6 +269,8 @@ a {
   color: #edc265;
   background-color: #e5a722;
 }
+
+
 
 /* Блок преимуществ */
 .features-studio {
@@ -370,4 +377,6 @@ a {
 .partner-link:focus {
   opacity: 0.1;
 }
+
+
 
