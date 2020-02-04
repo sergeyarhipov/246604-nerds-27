@@ -68,3 +68,9 @@ a {
 .menu-active {
   border-bottom: 2px solid #fb565a;
 }
+
+.bg-header {
+  background-color: #eeeeee;
+}
+
+/* Стили для index.html  */
