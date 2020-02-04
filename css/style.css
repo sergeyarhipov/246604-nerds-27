@@ -34,12 +34,14 @@ a {
 }
 
 .btn {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   font-size: inherit;
+  font-weight: 500;
   line-height: 18px;
   color: #fff;
   text-transform: uppercase;
+  text-align: center;
 
 }
 
@@ -78,6 +80,8 @@ a {
 }
 
 /* Стили для index.html  */
+
+/* Стили для слайдера */
 .slides {
   margin: 0;
   padding: 0;
@@ -89,14 +93,56 @@ a {
 
 .slide-slogan {
   margin: 0;
+  margin-bottom: 29px;
   font-size: 55px;
   font-weight: 500;
   line-height: 55px;
 }
 
+.slide-slogan-1 {
+  width: 380px;
+}
+
+.slide-slogan-2 {
+  width: 520px;
+}
+
+.slide-slogan-3 {
+  width: 420px;
+}
+
+.slide-text {
+  margin: 0;
+  margin-bottom: 34px;
+}
+
+.slide-text-1 {
+  width: 370px;
+}
+
+.slide-text-2 {
+  width: 420px;
+}
+
+.slide-text-3 {
+  width: 350px;
+}
+
 .btn-slider {
+  display: block;
+  width: 240px;
+  margin-bottom: 80px;
   background-color: #fb565a;
   box-sizing: border-box;
+}
+
+.service-items {
+  margin: 0;
+  padding: 0;
+}
+
+.service-item {
+  list-style: none;
 }
 
 .service-name {
