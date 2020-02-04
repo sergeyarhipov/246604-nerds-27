@@ -34,9 +34,13 @@ a {
 }
 
 .btn {
-  text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: inherit;
+  line-height: 18px;
+  color: #fff;
+  text-transform: uppercase;
+
 }
 
 .main-header {
@@ -74,3 +78,28 @@ a {
 }
 
 /* Стили для index.html  */
+.slides {
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  list-style: none;
+}
+
+.slide-slogan {
+  margin: 0;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+.btn-slider {
+  background-color: #fb565a;
+  box-sizing: border-box;
+}
+
+.service-name {
+  font-size: 24px;
+  line-height: 30px;
+}
