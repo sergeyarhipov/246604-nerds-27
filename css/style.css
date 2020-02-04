@@ -342,7 +342,32 @@ a {
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
+}
+
+
+
+/* Блок партнеров */
+.partners-items {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #eee;
  }
 
+.partner-item {
+  list-style: none;
+ }
 
+.partner-link {
+   opacity: 0.2;
+}
+
+ .partner-link:hover {
+  opacity: initial;
+}
+
+.partner-link:focus {
+  opacity: 0.1;
+}
 
