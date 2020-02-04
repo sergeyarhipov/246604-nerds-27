@@ -49,15 +49,37 @@ a {
   background-color: #eeeeee;
 }
 
+.bg-header {
+  background-color: #eeeeee;
+}
+
+/* Блок навигации */
+.link-index {
+  margin-right: 200px;
+  margin-top: 49px;
+}
+
 .link-index:focus {
   opacity: 0.3;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 440px;
+  margin-top: 70px;
+  margin-right: 245px;
+}
+
+.cart {
+  margin-top: 70px;
 }
 
 .menu a,
 .cart {
   line-height: 30px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: #000;
 }
 
@@ -75,8 +97,11 @@ a {
   border-bottom: 2px solid #fb565a;
 }
 
-.bg-header {
-  background-color: #eeeeee;
+
+.header-navigation {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 80px;
 }
 
 
