@@ -77,6 +77,7 @@ a {
 
 .menu a,
 .cart {
+  font-weight: 500;
   line-height: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -263,5 +264,83 @@ a {
   color: #edc265;
   background-color: #e5a722;
 }
+
+/* Блок преимуществ */
+.features-studio {
+  display: flex;
+}
+
+.general-futures {
+  width: 660px;
+  margin-right: 140px;
+}
+
+.slogan-studio {
+  width: 660px;
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.studio-text {
+  margin: 0;
+  margin-bottom: 45px;	
+}
+
+.header-services {
+  margin: 0;
+  margin-bottom: 38px;
+  text-transform: uppercase;
+}
+
+.features-items {
+  margin: 0;
+  padding: 0;
+}
+
+.feateres-item {
+  margin-bottom: 33px;
+  padding-left: 38px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.statistics-text {
+  margin: 0;
+  margin-bottom: 45px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.studio-statistics {
+  padding-top: 205px;
+}
+
+.statistics-items {
+  margin: 0;
+  padding: 0;
+}
+
+.statistics-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.statistics-item {
+  margin-right: 20px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.statistics-item span {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+ }
+
 
 
