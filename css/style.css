@@ -438,3 +438,21 @@ a {
 .partner-link:focus {
   opacity: 0.1;
 }
+
+
+
+/* Стили для catalog.html  */
+
+/* Область заголовка "Магазин готовых шаблонов" */
+.bg-header {
+  margin-bottom: 60px;
+  padding-bottom: 116px;
+}
+
+.bg-header h1 {
+  margin: 0;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+  text-align: center;
+}
