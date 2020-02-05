@@ -44,7 +44,6 @@ a {
   text-transform: uppercase;
   text-align: center;
   border-radius: 5px;
-
 }
 
 .main-header {
@@ -119,12 +118,12 @@ a {
 
 .contacts-block {
   width: 320px;
-  padding-top: 55px;
-  padding-bottom: 50px;
-  background-color: #fff;
   position: absolute;
   top: 55px;
   left: 140px;
+  padding-top: 55px;
+  padding-bottom: 50px;
+  background-color: #fff;
 }
 
 .contact-name {
@@ -521,6 +520,16 @@ a {
   border: none;
 }
 
+.btn-filter:hover {
+  background-color: #dfdfdf;
+}
+
+.btn-filter:focus {
+  color: #959595;
+  background-color: #d5d5d5;
+  border-top: 3px solid #bfbfbf;
+}
+
 
 
 /* Блок сортировки готовых шаблонов */
@@ -545,15 +554,15 @@ a {
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  padding-right: 110px;
 }
 
 .sorting {
   list-style: none;
   font-size: 14px;
   line-height: 18px;
+  color:;
   text-transform: uppercase;
-}
+ }
 
 .active-sorting {
   color: #000;
@@ -562,4 +571,83 @@ a {
 .link-sorting {
   color: #000;
   opacity: 0.3;
+}
+
+.link-sorting:hover {
+  opacity: 0.6;
+}
+
+.link-sorting:focus {
+  opacity: initial;
+}
+
+
+
+/* Блок каталога шаблонов */
+.catalog-items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ }
+
+.catalog-item {
+  position: relative;
+  margin: 0;
+  margin-bottom: 33px;
+  padding: 0;
+  list-style: none;
+}
+
+.item-desk {
+  display: none;
+  position: absolute;
+  padding-top: 28px;
+  padding-bottom: 43px;
+  top: 403px;
+  width: 360px;
+  text-align: center;
+  background-color: #eee;
+}
+
+.catalog-item:hover .item-desk {
+  display: block;
+}
+
+.name-item {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.text-item {
+  margin: 0 auto;
+  margin-bottom: 33px;
+  width: 180px;
+  line-height: 18px;
+}
+
+.sale-price {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fb565a;
+  border-radius: 5px;
+}
+
+.image-item {
+  border-top: 40px solid #e9e9e9;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
