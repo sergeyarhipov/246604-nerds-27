@@ -461,6 +461,7 @@ a {
 /* Основной блок (main)*/
 .main-catalog-content {
   display: flex;
+  width: 780px;
 }
 
 
@@ -477,6 +478,7 @@ a {
 
 .header-filter {
   font-size: 18px;
+  font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
 }
@@ -517,4 +519,47 @@ a {
   background-color: #eee;
   border-radius: 5px;
   border: none;
+}
+
+
+
+/* Блок сортировки готовых шаблонов */
+.template-sort {
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+  margin-bottom: 60px;
+}
+
+.template-sort span {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.sort-items {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-right: 110px;
+}
+
+.sorting {
+  list-style: none;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.active-sorting {
+  color: #000;
+}
+
+.link-sorting {
+  color: #000;
+  opacity: 0.3;
 }
