@@ -456,3 +456,8 @@ a {
   line-height: 55px;
   text-align: center;
 }
+
+/* Основной блок (main)*/
+.main-catalog-content {
+  display: flex;
+}

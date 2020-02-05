@@ -36,124 +36,127 @@
 		</div>
 		
 		<div class="container">
-			
-			<!-- Блок фильтра готовых шаблонов -->
-			<aside class="filters">
-				<form class="form-filters" action="https://echo.htmlacademy.ru/" method="post">
-					<fieldset class="filter">
-						<legend class="header-filter">Сетка:</legend>
-						<ul class="radio-items">
-							<li class="radio-item">
-								<input id="radio-item-1" type="radio" name="grid-value" value="adaptive">
-								<label for="radio-item-1">Адаптивная</label>
-							</li>
-							<li class="radio-item">
-								<input id="radio-item-2" type="radio" name="grid-value" value="fixed">
-								<label for="radio-item-2">Фиксированная</label>
-							</li>
-							<li class="radio-item">
-								<input id="radio-item-3" type="radio" name="grid-value" value="elastic">
-								<label for="radio-item-3">Фиксированная</label>
-							</li>
-						</ul>
-					</fieldset>
-					<fieldset class="filter">
-						<legend class="header-filter">Особенности:</legend>
-						<ul class="checkbox-items">
-							<li class="checkbox-item">
-								<input type="checkbox" id="checkbox-item-1" name="slider-block">
-								<label for="checkbox-item-1">Слайдер</label>
-							</li>
-							<li class="checkbox-item">
-								<input type="checkbox" id="checkbox-item-2" name="futures-block">
-								<label for="checkbox-item-2">Блок преимуществ</label>
-							</li>
-							<li class="checkbox-item">
-								<input type="checkbox" id="checkbox-item-3" name="news-block">
-								<label for="checkbox-item-3">Новости</label>
-							</li>
-							<li class="checkbox-item">
-								<input type="checkbox" id="checkbox-item-4" name="gallery-block">
-								<label for="checkbox-item-4">Галерея</label>
-							</li>
-							<li class="checkbox-item">
-								<input type="checkbox" id="checkbox-item-5" name="cart-block">
-								<label for="checkbox-item-5">Корзина</label>
-							</li>
-						</ul>
-					</fieldset>
-					<button class="btn-filter" type="submit">Показать</button>
-				</form>
-			</aside>
 
-			<!-- Блок сортировки готовых шаблонов -->
-			<div class="template-sort">
-				<ul class="sort-items">
-					<li class="sort-title">Сортировать:</li>
-					<li class="sorting"><a class="active-sorting" href="">По цене</a></li>
-					<li class="sorting"><a class="link-sorting" href="">По типу</a></li>
-					<li class="sorting"><a class="link-sorting" href="">По названию</a></li>
-				</ul>
-				<div class="sorting-arrows">
-            		<a class="arrow arrow-up" href=""></a>
-            		<a class="arrow arrow-down" href=""></a>
-        		</div>
+			<div class="main-catalog-content">
+				<!-- Блок фильтра готовых шаблонов -->
+				<aside class="filters">
+					<form class="form-filters" action="https://echo.htmlacademy.ru/" method="post">
+						<fieldset class="filter">
+							<legend class="header-filter">Сетка:</legend>
+							<ul class="radio-items">
+								<li class="radio-item">
+									<input id="radio-item-1" type="radio" name="grid-value" value="adaptive">
+									<label for="radio-item-1">Адаптивная</label>
+								</li>
+								<li class="radio-item">
+									<input id="radio-item-2" type="radio" name="grid-value" value="fixed">
+									<label for="radio-item-2">Фиксированная</label>
+								</li>
+								<li class="radio-item">
+									<input id="radio-item-3" type="radio" name="grid-value" value="elastic">
+									<label for="radio-item-3">Фиксированная</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class="filter">
+							<legend class="header-filter">Особенности:</legend>
+							<ul class="checkbox-items">
+								<li class="checkbox-item">
+									<input type="checkbox" id="checkbox-item-1" name="slider-block">
+									<label for="checkbox-item-1">Слайдер</label>
+								</li>
+								<li class="checkbox-item">
+									<input type="checkbox" id="checkbox-item-2" name="futures-block">
+									<label for="checkbox-item-2">Блок преимуществ</label>
+								</li>
+								<li class="checkbox-item">
+									<input type="checkbox" id="checkbox-item-3" name="news-block">
+									<label for="checkbox-item-3">Новости</label>
+								</li>
+								<li class="checkbox-item">
+									<input type="checkbox" id="checkbox-item-4" name="gallery-block">
+									<label for="checkbox-item-4">Галерея</label>
+								</li>
+								<li class="checkbox-item">
+									<input type="checkbox" id="checkbox-item-5" name="cart-block">
+									<label for="checkbox-item-5">Корзина</label>
+								</li>
+							</ul>
+						</fieldset>
+						<button class="btn-filter" type="submit">Показать</button>
+					</form>
+				</aside>
+
+				<!-- Блок каталога шаблонов -->
+				<section class="catalog-items">
+				
+					<!-- Блок сортировки готовых шаблонов -->
+					<div class="template-sort">
+						<ul class="sort-items">
+							<li class="sort-title">Сортировать:</li>
+							<li class="sorting"><a class="active-sorting" href="">По цене</a></li>
+							<li class="sorting"><a class="link-sorting" href="">По типу</a></li>
+							<li class="sorting"><a class="link-sorting" href="">По названию</a></li>
+						</ul>
+						<div class="sorting-arrows">
+            				<a class="arrow arrow-up" href=""></a>
+            				<a class="arrow arrow-down" href=""></a>
+        				</div>
+					</div>
+
+					<h2 class="visually-hidden">Каталог готовых шаблонов</h2>
+					<ul class="catalog-items">
+						<li class="catalog-item">
+							<img class="item-image" src="img/sedona-preview.jpg" alt="Превью шаблона" width="360" height="576">
+							<div class="item-desk">
+								<a class="name-item" href="">Sedona</a>
+								<p class="p text-item">Информационный сайт для туристов</p>
+								<span class="sale-price">9900 руб.</span>
+							</div>
+						</li>
+						<li class="catalog-item">
+							<img class="item-image" src="img/pink-preview.jpg" alt="Превью шаблона" width="360" height="576">
+							<div class="item-desk">
+								<a class="name-item" href="">Pink App</a>
+								<p class="p text-item">Информационный сайт для туристов</p>
+								<span class="sale-price">9900 руб.</span>
+							</div>
+						</li>
+						<li class="catalog-item">
+							<img class="item-image" src="img/barbershop-preview.jpg" alt="Превью шаблона" width="360" height="576">
+							<div class="item-desk">
+								<a class="name-item" href="">Barbershop</a>
+								<p class="p text-item">Сайт салона красоты, Для мужчин, да.</p>
+								<span class="sale-price">9900 руб.</span>
+							</div>
+						</li>
+						<li class="catalog-item">
+							<img class="item-image" src="img/mishka-preview.jpg" alt="Превью шаблона" width="360" height="576">
+							<div class="item-desk">
+								<a class="name-item" href="">Mishka</a>
+								<p class="p text-item">Интернет-магазин вязаных игрушек</p>
+								<span class="sale-price">9900 руб.</span>
+							</div>
+						</li>
+						<li class="catalog-item">
+							<img class="item-image" src="img/aplus-preview.jpg" alt="Превью шаблона" width="360" height="576">
+							<div class="item-desk">
+								<a class="name-item" href="">A plus</a>
+								<p class="p text-item">Лендинг курсов повышения квалификации</p>
+								<span class="sale-price">9900 руб.</span>
+							</div>
+						</li>
+						<li class="catalog-item">
+							<img class="item-image" src="img/kvast-preview.jpg" alt="Превью шаблона" width="360" height="576">
+							<div class="item-desk">
+								<a class="name-item" href="">Кваст</a>
+								<p class="p text-item">Промо-сайт производителя крафтового кваса</p>
+								<span class="sale-price">9900 руб.</span>
+							</div>
+						</li>
+					</ul>
+				</section>
 			</div>
-
-			<!-- Блок каталога шаблонов -->
-			<section class="catalog-items">
-				<h2 class="visually-hidden">Каталог готовых шаблонов</h2>
-				<ul class="catalog-items">
-					<li class="catalog-item">
-						<img class="item-image" src="img/sedona-preview.jpg" alt="Превью шаблона" width="360" height="576">
-						<div class="item-desk">
-							<a class="name-item" href="">Sedona</a>
-							<p class="p text-item">Информационный сайт для туристов</p>
-							<span class="sale-price">9900 руб.</span>
-						</div>
-					</li>
-					<li class="catalog-item">
-						<img class="item-image" src="img/pink-preview.jpg" alt="Превью шаблона" width="360" height="576">
-						<div class="item-desk">
-							<a class="name-item" href="">Pink App</a>
-							<p class="p text-item">Информационный сайт для туристов</p>
-							<span class="sale-price">9900 руб.</span>
-						</div>
-					</li>
-					<li class="catalog-item">
-						<img class="item-image" src="img/barbershop-preview.jpg" alt="Превью шаблона" width="360" height="576">
-						<div class="item-desk">
-							<a class="name-item" href="">Barbershop</a>
-							<p class="p text-item">Сайт салона красоты, Для мужчин, да.</p>
-							<span class="sale-price">9900 руб.</span>
-						</div>
-					</li>
-					<li class="catalog-item">
-						<img class="item-image" src="img/mishka-preview.jpg" alt="Превью шаблона" width="360" height="576">
-						<div class="item-desk">
-							<a class="name-item" href="">Mishka</a>
-							<p class="p text-item">Интернет-магазин вязаных игрушек</p>
-							<span class="sale-price">9900 руб.</span>
-						</div>
-					</li>
-					<li class="catalog-item">
-						<img class="item-image" src="img/aplus-preview.jpg" alt="Превью шаблона" width="360" height="576">
-						<div class="item-desk">
-							<a class="name-item" href="">A plus</a>
-							<p class="p text-item">Лендинг курсов повышения квалификации</p>
-							<span class="sale-price">9900 руб.</span>
-						</div>
-					</li>
-					<li class="catalog-item">
-						<img class="item-image" src="img/kvast-preview.jpg" alt="Превью шаблона" width="360" height="576">
-						<div class="item-desk">
-							<a class="name-item" href="">Кваст</a>
-							<p class="p text-item">Промо-сайт производителя крафтового кваса</p>
-							<span class="sale-price">9900 руб.</span>
-						</div>
-					</li>
-				</ul>
-			</section>
 
 			<!-- Блок постаничной навигации -->
 			<ul class="pagination">
