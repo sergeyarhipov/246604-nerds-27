@@ -48,11 +48,11 @@ a {
 }
 
 .main-header {
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
 .bg-header {
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
 
@@ -226,7 +226,6 @@ a {
   display: block;
   width: 240px;
   background-color: #fb565a;
-  box-sizing: border-box;
 }
 
 .btn-slider:hover {
@@ -295,12 +294,12 @@ a {
 }
 
 .service-order-red:hover {
- background-color: #e74246;
+  background-color: #e74246;
 }
 
 .service-order-red:focus {
- color: #e37376;
- background-color: #d7373b;
+  color: #e37376;
+  background-color: #d7373b;
 }
 
 .service-order-green {
@@ -457,7 +456,65 @@ a {
   text-align: center;
 }
 
+
+
 /* Основной блок (main)*/
 .main-catalog-content {
   display: flex;
+}
+
+
+/* Блок фильтра готовых шаблонов */
+.filter {
+  width: 260px;
+  margin: 0;
+  margin-right: 140px;
+  padding: 0;
+  padding-left: 20px;
+  padding-top: 16px;
+  border: none;
+}
+
+.header-filter {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.radio-items {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+ }
+
+.radio-item {
+  padding-bottom: 26px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.checkbox-items {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.checkbox-item {
+  padding-bottom: 26px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.btn-filter {
+  width: 260px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 5px;
+  border: none;
 }
