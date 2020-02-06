@@ -586,6 +586,7 @@ a {
 /* Блок каталога шаблонов */
 .catalog-items {
   margin: 0;
+  margin-bottom: 60px;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -654,4 +655,38 @@ a {
 
 .image-item:hover {
   border-color: #4d4d4d;
+}
+
+
+
+/* Блок постраничной навигации */
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 420px;
+  margin-bottom: 60px;
+}
+
+.pagination li {
+  list-style: none;
+}
+
+.link-pagination {
+  margin-right: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  line-height: 18px;
+  color: #000;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+.active-pagination {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid #dbdbdb;
+  background-color: #fff;
 }
