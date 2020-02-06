@@ -651,3 +651,7 @@ a {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+
+.image-item:hover {
+  border-color: #4d4d4d;
+}
