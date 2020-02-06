@@ -13,7 +13,7 @@
 
 
 
-/* Общие стили */
+/* ОБЩИЕ СТИЛИ */
 body {
   margin: 0;
   padding: 0;
@@ -169,7 +169,50 @@ a {
 }
 
 
-/* Стили для index.html  */
+
+/* Блок футера */
+.social-links {
+  display: flex;
+  width: 260px;
+  margin-right: 140px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.social-item {
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+  margin-right: 10px;
+  list-style: none;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+}
+
+.social-link {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.footer-items {
+  display: flex;
+}
+
+.slogan {
+  width: 560px;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.slogan span {
+  font-size: 16px;
+  line-height: 22px;
+  color: #444;
+}
+
+
+
+/* СТИЛИ ДЛЯ index.html  */
 
 /* Блок слайдера */
 .slides {
@@ -439,7 +482,7 @@ a {
 
 
 
-/* Стили для catalog.html  */
+/* СТИЛИ ДЛЯ catalog.html  */
 
 /* Область заголовка "Магазин готовых шаблонов" */
 .bg-header {
