@@ -228,10 +228,7 @@ a {
 .popup-send {
   margin: 0 auto;
   width: 800px;
-  padding-left:  80px;
-  padding-right: 80px;
-  padding-top: 75px;
-  padding-bottom: 85px;
+  padding: 75px 80px 85px 80px;
   border: 1px solid #000;
   background-color: #fff;
 }
@@ -582,15 +579,15 @@ a {
  }
 
  .partners-items .partner-item:nth-child(1) {
-   margin-right: 10px;
+  margin-right: 10px;
  }
 
 .partners-items .partner-item:nth-child(2) {
-   margin-right: 10px;
+  margin-right: 10px;
  }
 
  .partners-items .partner-item:nth-child(3) {
-   margin-right: 5px;
+  margin-right: 5px;
  }
 
  .partner-link {
