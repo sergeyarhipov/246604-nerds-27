@@ -546,7 +546,7 @@ a.menu-active {
   content: "";
   position: absolute;
   top: 11px;
-  left: 0;
+  left: 1px;
   width: 25px;
   height: 2px;
   background: transparent url("../img/nerds-sprite.png") no-repeat;
@@ -608,15 +608,31 @@ a.menu-active {
  }
 
  .partners-items .partner-item:nth-child(1) {
+   position: relative;
    margin-right: 10px;
  }
 
-.partners-items .partner-item:nth-child(2) {
+ .partners-items .partner-item:nth-child(2) {
+   position: relative;
    margin-right: 10px;
  }
 
  .partners-items .partner-item:nth-child(3) {
+   position: relative;
    margin-right: 5px;
+ }
+
+ .partners-items .partner-item:nth-child(1)::before,
+ .partners-items .partner-item:nth-child(2)::before,
+ .partners-items .partner-item:nth-child(3)::before {
+   content: "";
+   position: absolute;
+   top: 65px;
+   right: 0;
+   width: 2px;
+   height: 52px;
+   background: transparent url("../img/nerds-sprite.png") no-repeat;
+   background-position: -10px -423px
  }
 
  .partner-link {
