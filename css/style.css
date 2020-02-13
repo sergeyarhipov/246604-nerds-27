@@ -215,6 +215,78 @@ a.menu-active {
   height: 80px;
 }
 
+.social-link-vk {
+  position: relative;
+}
+
+.social-link-vk:hover {
+  border-radius: 50%;
+  background-color: #e74246;
+}
+
+.social-link-vk:focus {
+  border-radius: 50%;
+  background-color: #d7373b;
+}
+
+.social-link-vk svg{
+  position: absolute;
+  top: 32px;
+  left: 26px;
+}
+
+.social-link-vk:focus svg{
+  opacity: 0.3;
+}
+
+.social-link-fb {
+  position: relative;
+}
+
+.social-link-fb:hover {
+  border-radius: 50%;
+  background-color: #e74246;
+}
+
+.social-link-fb:focus {
+  border-radius: 50%;
+  background-color: #d7373b;
+}
+
+.social-link-fb svg {
+  position: absolute;
+  top: 28px;
+  left: 33px;
+}
+
+.social-link-fb:focus svg{
+  opacity: 0.3;
+}
+
+.social-link-inst {
+  position: relative;
+}
+
+.social-link-inst:hover {
+  border-radius: 50%;
+  background-color: #e74246;
+}
+
+.social-link-inst:focus {
+  border-radius: 50%;
+  background-color: #d7373b;
+}
+
+.social-link-inst svg {
+  position: absolute;
+  top: 29px;
+  left: 29px;
+}
+
+.social-link-inst:focus svg{
+  opacity: 0.3;
+}
+
 .footer-items {
   display: flex;
 }
