@@ -536,9 +536,21 @@ a.menu-active {
 }
 
 .feateres-item {
+  position: relative;
   margin-bottom: 23px;
   padding-left: 38px;
   list-style: none;
+}
+
+.feateres-item::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 25px;
+  height: 2px;
+  background: transparent url("../img/nerds-sprite.png") no-repeat;
+  background-position: -10px -191px;
 }
 
 .statistics-text {
