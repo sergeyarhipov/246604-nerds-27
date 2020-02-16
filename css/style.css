@@ -27,7 +27,7 @@ a {
 }
 
 .container {
-  width: 1240px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -1033,7 +1033,6 @@ a.menu-active {
   list-style: none;
   font-size: 14px;
   line-height: 18px;
-  color:;
   text-transform: uppercase;
  }
 
@@ -1056,6 +1055,60 @@ a.menu-active {
 
 .link-sorting:focus {
   opacity: initial;
+}
+
+.sort-items {
+  margin-right: 45px;
+}
+
+.sorting-arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 41px;
+}
+
+.arrow {
+  width: 11px;
+  height: 10px;
+  opacity: 0.2;
+}
+
+.arrow:hover {
+  opacity: 0.4;
+}
+
+.arrow:focus {
+  opacity: initial;
+}
+
+.arrow-up {
+  position: relative;
+}
+
+.arrow-up::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 11px;
+  height: 10px;
+  background: transparent url("../img/nerds-sprite.png") no-repeat;
+  background-position: -10px -161px;
+}
+
+.arrow-down {
+  position: relative;
+}
+
+.arrow-down::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 11px;
+  height: 10px;
+  background: transparent url("../img/nerds-sprite.png") no-repeat;
+  background-position: -10px -131px;
 }
 
 
