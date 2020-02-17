@@ -1287,3 +1287,7 @@ a.menu-active {
 .next-page:focus {
   padding: 12px 77px 15px 77px;
 }
+
+.popup-send {
+  display: none;
+}
