@@ -27,7 +27,7 @@ a {
 }
 
 .container {
-  width: 1240px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -121,8 +121,8 @@ a.menu-active {
 /* */
 .map-block {
   position: relative;
-  max-width: 1340px;
   overflow: hidden;
+  max-width: 1340px;
   margin: 0 auto;
   text-align: center;
 }
@@ -140,8 +140,6 @@ a.menu-active {
 
 .map {
   display: block;
-  position: relative;
-  right: 70px;
 }
 
 .contacts-block {
