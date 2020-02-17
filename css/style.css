@@ -42,7 +42,6 @@ a {
 }
 
 .main-header {
-  width: 100%;
   margin-bottom: 62px;
   background-color: #eee;
 }
@@ -122,9 +121,6 @@ a.menu-active {
 .map-block {
   position: relative;
   overflow: hidden;
-  max-width: 1340px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .map-block::after {
@@ -140,6 +136,9 @@ a.menu-active {
 
 .map {
   display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .contacts-block {
