@@ -416,12 +416,18 @@ a.menu-active {
   list-style: none;
 }
 
+.slide-1 {
+  background: transparent url(../img/slide1.png) no-repeat bottom right 30px;
+}
+
 .slide-2 {
   display: none;
+  background: transparent url(../img/slide2.png) no-repeat bottom right;
 }
 
 .slide-3 {
   display: none;
+  background: transparent url(../img/slide3.png) no-repeat bottom right;
 }
 
 .slide-slogan {
