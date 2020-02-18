@@ -314,27 +314,57 @@ a.menu-active {
 
 /* */
 .popup-send {
+  display: block;
+  position: fixed;
+  width: 961px;
+  height: 595px;
+  top: 5%;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
   margin: 0 auto;
-  width: 800px;
-  padding-left:  80px;
-  padding-right: 80px;
-  padding-top: 75px;
-  padding-bottom: 85px;
-  border: 1px solid #000;
+  padding: 65px 100px 85px 100px;
   background-color: #fff;
+  box-shadow: 0 20px 40px rgba(41,52,73,.75);
+}
+
+.popup-close {
+  position: absolute;
+  top: 78px;
+  right: 87px;
+  width: 23px;
+  height: 21px;
+  background: transparent url(../img/close-popup.png) no-repeat;
+  border: none;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.popup-close:hover {
+  opacity: initial;
+}
+
+.popup-close:focus {
+  opacity: 0.1;
 }
 
 .popup-send h2 {
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 43px;
   font-size: 45px;
   line-height: 45px;
+}
+
+.letter-popup {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contact-name {
   width: 360px;
   display: inline-block;
-  padding-right: 40px;
 }
 
 .contact-email {
@@ -346,14 +376,14 @@ a.menu-active {
 .contact-email label[for="email"] {
   display: block;
   font-weight: normal;
-  margin-bottom: 12px;
+  margin-bottom: 9px;
   line-height: 18px;
 }
 
 .contact-name input,
 .contact-email input {
   width: 360px;
-  padding: 16px 15px 16px 15px;
+  padding: 15px;
   box-sizing: border-box;
   font-size: 16px;
   font-weight: normal;
@@ -362,6 +392,7 @@ a.menu-active {
 .textarea label[for="textarea"] {
   display: block;
   font-weight: normal;
+  margin-top: 32px;
   margin-bottom: 12px;
   line-height: 18px;
 }
@@ -376,9 +407,9 @@ a.menu-active {
 
 .textarea textarea {
   width: 760px;
-  margin-bottom: 47px;
-  padding: 16px 15px 16px 15px;
-  box-sizing:border-box
+  margin-bottom: 45px;
+  padding: 9px 15px 16px 9px;
+  box-sizing: border-box
 }
 
 .popup-btn {
@@ -1278,8 +1309,4 @@ a.menu-active {
 
 .next-page:focus {
   padding: 12px 77px 15px 77px;
-}
-
-.popup-send {
-  display: none;
 }
