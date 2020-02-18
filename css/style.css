@@ -585,7 +585,7 @@ a.menu-active {
 .features-studio {
   display: flex;
   padding-top: 73px;
-  padding-bottom: 51px;
+  padding-bottom: 75px;
   justify-content: space-between;
   background: transparent url("../img/features-background.png") no-repeat left 800px top 40px;
 }
@@ -625,6 +625,10 @@ a.menu-active {
   list-style: none;
 }
 
+.features-items .features-item:last-child {
+  margin-bottom: 0
+}
+
 .features-item::before {
   content: "";
   position: absolute;
@@ -647,7 +651,6 @@ a.menu-active {
   width: 332px;
   align-self: flex-end;
   padding-right: 10px;
-  padding-bottom: 25px;
 }
 
 .statistics-items {
@@ -665,7 +668,7 @@ a.menu-active {
 
 .statistics-item span {
   display: block;
-  margin-bottom: 17px;
+  margin-bottom: 20px;
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
