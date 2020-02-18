@@ -314,7 +314,7 @@ a.menu-active {
 
 /* */
 .popup-send {
-  display: block;
+  display: none;
   position: fixed;
   width: 961px;
   height: 595px;
