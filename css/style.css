@@ -618,14 +618,14 @@ a.menu-active {
   padding: 0;
 }
 
-.feateres-item {
+.features-item {
   position: relative;
   margin-bottom: 23px;
   padding-left: 38px;
   list-style: none;
 }
 
-.feateres-item::before {
+.features-item::before {
   content: "";
   position: absolute;
   top: 11px;
@@ -717,7 +717,6 @@ a.menu-active {
 
 .partner-link img {
   display: block;
-  width: 260px;
 }
 
  .partner-link:hover {
