@@ -442,8 +442,8 @@ a.menu-active {
 
 .slider-controls {
   position: absolute;
-  bottom: 180px;
-  left: 627px;
+  bottom: 88px;
+  left: 535px;
   z-index: 20;
   font-size: 0;
 }
@@ -459,10 +459,15 @@ a.menu-active {
   cursor: pointer;
 }
 
+.slider {
+  position: relative;
+  width: 1160px;
+  height: 426px;
+  margin-bottom: 80px;
+}
+
 .slide {
   display: none;
-  position: relative;
-  margin-bottom: 80px;
   padding: 75px 0 80px 0;
   list-style: none;
 }
