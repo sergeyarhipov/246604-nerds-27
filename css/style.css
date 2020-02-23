@@ -113,17 +113,33 @@ a.menu-active {
 .map-block {
   position: relative;
   overflow: hidden;
+  width: 1200px;
+  height: 415px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.map-block::after {
+.map-label {
   content: "";
   position: absolute;
-  top: 91px;
-  left: 700px;
+  z-index: 20;
+  top: 90px;
+  left: 705px;
   width: 231px;
   height: 190px;
   background: transparent url("../img/nerds-sprite.png") no-repeat;
   background-position: -10px -213px;
+}
+
+.map-label-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .map {
