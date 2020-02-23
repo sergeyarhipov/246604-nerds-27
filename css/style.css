@@ -313,14 +313,33 @@ a.menu-active {
 
 
 /* */
+@keyframes bounce {
+  0% {
+    transform: translateY(-2000px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .popup-send {
   display: none;
   position: fixed;
   width: 961px;
   height: 595px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
+  top: 15%;
+  left: 300px;
+  right: 300px;
+  margin: 0 auto;
   z-index: 20;
   box-sizing: border-box;
   padding: 65px 100px 85px 100px;
@@ -350,6 +369,8 @@ a.menu-active {
 
 .popup-show {
   display: block;
+  animation-name: bounce;
+  animation-duration: 0.6s;
 }
 
 .popup-send h2 {
@@ -426,14 +447,13 @@ a.menu-active {
 }
 
 .popup-btn:hover {
- background-color: #e74246;
+  background-color: #e74246;
 }
 
 .popup-btn:focus {
- color: #e37376;
- background-color: #d7373b;
+  color: #e37376;
+  background-color: #d7373b;
 }
-
 
 
 /* */
