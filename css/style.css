@@ -193,6 +193,7 @@ a.menu-active {
   width: 220px;
   padding: 16px 16px;
   text-align: center;
+  vertical-align: middle;
   box-sizing: border-box;
   background-color: #fb565a;
 }
@@ -411,11 +412,13 @@ a.menu-active {
 .contact-name {
   width: 360px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .contact-email {
   width: 360px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .contact-name label[for="name"],
@@ -584,6 +587,7 @@ a.menu-active {
   padding: 16px 16px;
   box-sizing: border-box;
   text-align: center;
+  vertical-align: middle;
   background-color: #fb565a;
 }
 
@@ -1096,8 +1100,8 @@ a.menu-active {
 .price-controls label {
   display: inline-block;
   width: 50%;
-  
   font-size: 16px;
+  vertical-align: middle;
   text-transform: uppercase;
 }
 
@@ -1313,6 +1317,7 @@ a.menu-active {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: middle;
   background-color: #fb565a;
   border-radius: 5px;
 }
