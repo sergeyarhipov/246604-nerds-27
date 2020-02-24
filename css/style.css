@@ -120,6 +120,10 @@ a.menu-active {
   box-sizing: border-box;
 }
 
+.map-block iframe {
+  border: none;
+}
+
 .map-label {
   content: "";
   position: absolute;
