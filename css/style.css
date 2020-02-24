@@ -52,7 +52,7 @@ a {
 
 
 
-/* */
+/* Стили для Блока меню */
 .link-index:focus {
   opacity: 0.3;
 }
@@ -109,7 +109,7 @@ a.menu-active {
 
 
 
-/* */
+/* Стили для Блока карты */
 .map-block {
   position: relative;
   overflow: hidden;
