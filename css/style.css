@@ -203,7 +203,7 @@ a.menu-active {
 
 
 
-/* */
+/* Стили для Блока футера */
 .main-footer {
   padding-bottom: 68px;
   padding-top: 68px;
@@ -328,7 +328,7 @@ a.menu-active {
 
 
 
-/* */
+/* Стили для popup */
 @keyframes bounce {
   0% {
     transform: translateY(-2000px);
@@ -472,9 +472,9 @@ a.menu-active {
 }
 
 
-/* */
+/* Стили для index.html */
 
-/* */
+/* Стили для Блока слайдера */
 .slides {
   margin: 0;
   padding: 0;
@@ -593,7 +593,7 @@ a.menu-active {
 
 
 
-/* */
+/* Стили для Блока описания услуг */
 .service-items {
   display: flex;
   justify-content: space-between;
@@ -687,7 +687,7 @@ a.menu-active {
 
 
 
-/* */
+/* Стили для Блока преимуществ */
 .features-studio {
   display: flex;
   padding-top: 73px;
@@ -787,7 +787,7 @@ a.menu-active {
 
 
 
-/* */
+/* Стили для Блока преимуществ */
 .partners-items {
   display: flex;
   justify-content: space-around;
@@ -838,9 +838,9 @@ a.menu-active {
 
 
 
-/* */
+/* Стили для catalog.html */
 
-/* */
+/* Стили для заголовка страницы */
 .page-title {
   padding: 75px 20px 105px 0;
 }
@@ -856,13 +856,13 @@ a.menu-active {
 
 
 
-/* */
+/* Стили для Блока каталога готовых шаблонов */
 .main-catalog-content {
   display: flex;
 }
 
 
-/* */
+/* Стили для блока фильтров */
 .filters {
   margin-right: 140px;
 }
@@ -1115,7 +1115,7 @@ a.menu-active {
 
 
 
-/* */
+/* Стили для Блока сортировки */
 .template-sort {
   display: flex;
   align-items: center;
@@ -1223,7 +1223,7 @@ a.menu-active {
 
 
 
-/* */
+/* Стили для Каталога готовых шаблонов */
 .catalog-items {
   margin: 0;
   margin-right: -40px;
