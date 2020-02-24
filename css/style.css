@@ -115,6 +115,7 @@ a.menu-active {
   overflow: hidden;
   width: 1200px;
   height: 415px;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -1225,13 +1226,14 @@ a.menu-active {
 
 /* Стили для Каталога готовых шаблонов */
 .catalog-items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
   margin: 0;
   margin-right: -40px;
   margin-bottom: 28px;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
- }
+}
 
 .catalog-item {
   position: relative;
